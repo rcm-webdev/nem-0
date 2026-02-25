@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+openai
+mem0ai
+python-dotenv==1.0.1
+supabase
+vecs
+pydantic

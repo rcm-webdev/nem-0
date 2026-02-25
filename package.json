@@ -1,0 +1,12 @@
+{
+  "name": "nem0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n api,ui -c cyan,magenta \".venv/bin/uvicorn api.main:app --reload --port 8000\" \"npm --prefix nem0 run dev\"",
+    "build": "npm --prefix nem0 run build",
+    "start": ".venv/bin/uvicorn api.main:app --port 8000"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
