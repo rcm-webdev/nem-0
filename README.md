@@ -22,11 +22,11 @@ Tech Stack:
 - Database: Supabase
 - OpenAI API
 
-## AI first development:
-- The goal was to create an AI agent with memory, building up from [Vega](https://github.com/rcm-webdev/vega-autonomous-ai-agent)
-- Followed mem0 documentation and started collaborating with claude code to create a FastAPI
-- Utilized [Bolt.new](https://bolt.new/) for rapid-prototyping the front-end layer with a Vite + React vs Next.js
-- Added a validation layer to prevent any kind of prompt injection or SQL injection given this is an LLM connected to a database.
+## AI First Development
+- Started from [Vega](https://github.com/rcm-webdev/vega-autonomous-ai-agent) as a foundation and extended it into a memory-enabled AI agent
+- Referenced Mem0 docs and collaborated with Claude Code to scaffold the FastAPI backend
+- Used [Bolt.new](https://bolt.new/) to rapidly prototype the frontend, choosing Vite + React over Next.js for simplicity
+- Added a validation layer to guard against prompt injection and SQL injection, since the LLM is directly connected to a database
 
 ![Nem-0](public/nem0_prototype.png)
 
