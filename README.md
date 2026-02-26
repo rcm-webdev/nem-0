@@ -12,7 +12,7 @@
 > You: ...
 >
 
-Nem-0 is a business intelligent AI agent with long-term memory. This application will serve small business owners with a very knowledgable business advisor. This agent will hold context as everything will be stored in a database that will contain the vast sea of knowledge of your business. No need to remind your agent or provide context as memories will serve that information.
+Nem-0 is an AI-powered business advisor agent with long-term memory, built for small business owners who need a knowledgeable, always-available advisor at their side. Unlike typical AI chat tools, Nem-0 remembers everything; your business history, goals, challenges, and decisions are all stored and recalled automatically. No need to re-explain your situation every session. Nem-0 picks up right where you left off.
 
 ## How its made: 
 
@@ -23,6 +23,11 @@ Tech Stack:
 - OpenAI API
 
 ## AI first development: 
+- The goal was to create an AI agent with memory, building up from [Vega](https://github.com/rcm-webdev/vega-autonomous-ai-agent)
+- Followed mem0 documentation and started collaborating with claude code to create a FastAPI
+- Utilized [Bolt.new](https://bolt.new/) for rapid-prototyping the front-end layer with a Vite + React vs Next.js
+
+![Nem-0](public/nem0_prototype.png)
   
 ## Optimizations
 
