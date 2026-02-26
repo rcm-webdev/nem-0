@@ -51,8 +51,8 @@ Tech Stack:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/nem0.git
-cd nem0
+git clone https://github.com/your-username/nem-0.git
+cd nem-0
 ```
 
 ### 2. Set up environment variables
