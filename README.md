@@ -91,3 +91,7 @@ npm run dev
 This starts:
 - FastAPI backend on `http://localhost:8000`
 - Vite + React frontend via `npm --prefix nem0 run dev`
+
+# Related Projects
+[![Mamm0th](https://github.com/rcm-webdev/mamm0th/blob/main/public/mamm0th.jpg)](https://github.com/rcm-webdev/mamm0th)
+[![Vega](https://raw.githubusercontent.com/rcm-webdev/vega-autonomous-ai-agent/main/public/vega-scientist.jpg)](https://github.com/rcm-webdev/vega-autonomous-ai-agent)
