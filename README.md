@@ -1,5 +1,5 @@
 # Nem-0
-![Nem-0](public/nem0.jpg)
+![Nem-0](public/nem-0.jpg)
 
 > You: Hello, my name is *** and an I am an AI builder.
 >
